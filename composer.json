@@ -1,0 +1,11 @@
+{
+    "name": "ailibrary/php-ai-library",
+    "require": {
+        "php-ai/php-ml": "^0.8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AILibrary\\": "src/"
+        }
+    }
+}
