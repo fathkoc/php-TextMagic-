@@ -1,11 +1,22 @@
 {
-    "name": "ailibrary/php-ai-library",
-    "require": {
-        "php-ai/php-ml": "^0.8.0"
-    },
+    "name": "fathkoc/php-textmagic",
+    "description": "A lightweight PHP library for basic text analysis operations like summarization, sentiment analysis, keyword extraction, and classification.",
+    "type": "library",
     "autoload": {
         "psr-4": {
-            "AILibrary\\": "src/"
+            "TextMagic\\": "src/"
         }
-    }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fatih Koç",
+            "email": "fathkccc@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
